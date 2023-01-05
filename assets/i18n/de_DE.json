@@ -135,7 +135,7 @@
         "logsLabel": "Protokolle",
         "logsHint": "Manager-Protokolle teilen",
         "apiURLLabel": "API-URL",
-        "apiURLHint": "Konfiguriere deine eigene API-URL",
+        "apiURLHint": "Konfiguriere deine benutzerdefinierte API-URL",
         "selectApiURL": "API URL",
         "experimentalUniversalPatchesLabel": "Unterstützung für universelle Patches (experimentell)",
         "experimentalUniversalPatchesHint": "Zeigt alle Apps zur Verwendung mit universellen Patches, dadurch lädt die App-Liste evtl. langsamer",
@@ -165,9 +165,9 @@
         "resetStoredPatchesHint": "Gespeicherte Auswahl der Patches zurücksetzen",
         "resetStoredPatches": "Patchauswahl wurde zurückgesetzt",
         "jsonSelectorErrorMessage": "Ausgewählte JSON-Datei kann nicht verwendet werden",
-        "deleteLogsLabel": "Logs löschen",
-        "deleteLogsHint": "Lösche gesammelte Logs von dem Manager",
-        "deletedLogs": "Logs gelöscht"
+        "deleteLogsLabel": "Protokolle löschen",
+        "deleteLogsHint": "Lösche gesammelte Protokolle von dem Manager",
+        "deletedLogs": "Protokolle gelöscht"
     },
     "appInfoView": {
         "widgetTitle": "App Info",
@@ -182,7 +182,7 @@
         "originalPackageNameLabel": "Ursprünglicher Paketname",
         "installTypeLabel": "Installationsart",
         "rootTypeLabel": "Root",
-        "nonRootTypeLabel": "Nicht gerooted",
+        "nonRootTypeLabel": "Nicht gerootet",
         "patchedDateLabel": "Patch-Datum",
         "patchedDateHint": "{date} um {time}",
         "appliedPatchesLabel": "Angewandte Patches",

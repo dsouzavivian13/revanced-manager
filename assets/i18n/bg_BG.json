@@ -35,7 +35,7 @@
     "applicationItem": {
         "patchButton": "Модифицирай",
         "infoButton": "Информация",
-        "changelogLabel": "Списък с промените"
+        "changelogLabel": "Списък с промени"
     },
     "latestCommitCard": {
         "loadingLabel": "Зареждане...",

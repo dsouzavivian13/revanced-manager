@@ -1,6 +1,7 @@
 {
     "okButton": "Aceitar",
     "cancelButton": "Cancelar",
+    "updateButton": "Atualizar",
     "enabledLabel": "Ativado",
     "disabledLabel": "Desativado",
     "yesButton": "Sim",
@@ -21,7 +22,7 @@
         "noInstallations": "Nenhum aplicativo modificado instalado",
         "installed": "Instalado",
         "updateDialogTitle": "Atualizar o Manager",
-        "updateDialogText": "Tem certeza que deseja baixar e atualizar o ReVanced Manager?",
+        "updateChangelogTitle": "Mudanças",
         "notificationTitle": "Atualização baixada",
         "notificationText": "Toque para instalar a atualização",
         "downloadingMessage": "Baixando atualização...",
@@ -81,13 +82,13 @@
         "all": "Todos",
         "none": "Nenhum",
         "loadPatchesSelection": "Carregar seleção de patches",
-        "noSavedPatches": "Sem patches salvados para o app selecionado\nAperte Feito para salvar a seleção atual",
+        "noSavedPatches": "Nenhum patch salvo para o aplicativo selecionado.\nAperte \"Concluir\" para salvar a seleção atual.",
         "noPatchesFound": "Nenhum patch encontrado para o aplicativo selecionado",
         "selectAllPatchesWarningContent": "Você está prestes a selecionar todos os 'patchs', isso inclui 'patchs' não-recomendados e isso pode causar comportamentos inesperados."
     },
     "patchItem": {
         "unsupportedDialogText": "Selecionar esse patch pode resultar em erros de patcheamento.\n\nVersão do app: {packageVersion}\nVersões suportadas:\n{supportedVersions}",
-        "unsupportedPatchVersion": "O patch não é suportado para essa versão do app. Habilite a opção experimental nas configurações para continuar."
+        "unsupportedPatchVersion": "Patch não é suportado para esta versão do app. Habilite o botão de funções experimentais nas configurações para prosseguir."
     },
     "installerView": {
         "widgetTitle": "Instalador",
@@ -121,6 +122,7 @@
         "englishOption": "Inglês",
         "sourcesLabel": "Fontes",
         "sourcesLabelHint": "Configure sua URL de API customizada",
+        "hostRepositoryLabel": "API do Repositório",
         "orgPatchesLabel": "Organização de Patches",
         "sourcesPatchesLabel": "Fonte dos Patches",
         "orgIntegrationsLabel": "Organização das Integrações",
@@ -135,6 +137,8 @@
         "apiURLLabel": "URL da API",
         "apiURLHint": "Configure sua URL de API customizada",
         "selectApiURL": "URL da API",
+        "experimentalUniversalPatchesLabel": "Suporte a patches universais experimentais",
+        "experimentalUniversalPatchesHint": "Exibir todos os aplicativos para usar com patches universais, a lista de carregamento dos aplicativos pode ser lenta",
         "experimentalPatchesLabel": "Suporte de Patches Experimentais",
         "experimentalPatchesHint": "Habilitar o uso de patches não suportados em qualquer versão do app",
         "enabledExperimentalPatches": "Suporte a patches experimentais ativado",
@@ -148,7 +152,7 @@
         "deleteKeystoreHint": "Apagar o registro de chaves usado para assinar o app",
         "deletedKeystore": "Registro de chaves apagado",
         "deleteTempDirLabel": "Apagar arquivos temporários",
-        "deleteTempDirHint": "Apagar os arquivos temporários inutilizados",
+        "deleteTempDirHint": "Apagar arquivos temporários não utilizados",
         "deletedTempDir": "Arquivos temporários apagados",
         "exportPatchesLabel": "Exportar seleção de patches",
         "exportPatchesHint": "Exportar a seleção de patches para um arquivo JSON",
@@ -160,10 +164,10 @@
         "resetStoredPatchesLabel": "Redefinir patches",
         "resetStoredPatchesHint": "Redefinir a seleção de patches armazenados",
         "resetStoredPatches": "A seleção de patches foi redefinida",
-        "jsonSelectorErrorMessage": "Não é possível usar o arquivo JSON selecionado",
+        "jsonSelectorErrorMessage": "Não é possível usar o arquivo JSON selecionado!",
         "deleteLogsLabel": "Apagar registros",
-        "deleteLogsHint": "Apagar registros coletados pelo administrador",
-        "deletedLogs": "Registros apagados"
+        "deleteLogsHint": "Apagar registros coletados pelo Gerente",
+        "deletedLogs": "Registros apagados!"
     },
     "appInfoView": {
         "widgetTitle": "Inform. do app",
@@ -173,9 +177,9 @@
         "unpatchButton": "Remover patches",
         "unpatchDialogText": "Você tem certeza que deseja remover os patches deste aplicativo?",
         "rootDialogTitle": "Erro",
-        "rootDialogText": "O aplicativo foi instalado com permissões de superusuário, mas atualmente o ReVanced Manager não tem permissões.\nPor favor, conceda permissões de superusuário primeiro.",
+        "rootDialogText": "O aplicativo foi instalado com permissões de superusuário, mas atualmente o ReVanced Manager não tem permissões.\nPor favor, conceda permissões de superusuário primeiro.!",
         "packageNameLabel": "Nome do pacote",
-        "originalPackageNameLabel": "Nome original do pacote",
+        "originalPackageNameLabel": "Nome original do pacote!",
         "installTypeLabel": "Tipo de instalação",
         "rootTypeLabel": "Root",
         "nonRootTypeLabel": "Não-root",
@@ -183,14 +187,14 @@
         "patchedDateHint": "{date} às {time}",
         "appliedPatchesLabel": "Patches aplicados",
         "appliedPatchesHint": "{quantity} patches aplicados",
-        "updateNotImplemented": "Esta função ainda não foi implementada"
+        "updateNotImplemented": "Esta função ainda não foi implementada..."
     },
     "contributorsView": {
         "widgetTitle": "Contribuidores",
-        "patcherContributors": "Contribuidores do Patcher",
-        "patchesContributors": "Contribuidores de patches",
-        "integrationsContributors": "Contribuidores de integrações",
-        "cliContributors": "Contribuidores CLI",
-        "managerContributors": "Contribuidores do Manager"
+        "patcherContributors": "Contribuidores do Patcher!",
+        "patchesContributors": "Contribuidores de patches!",
+        "integrationsContributors": "Contribuidores de integrações!",
+        "cliContributors": "Contribuidores CLI!",
+        "managerContributors": "Contribuidores do Gerente!"
     }
 }
